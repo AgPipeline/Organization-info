@@ -7,6 +7,9 @@ Please be sure to read this documentation on how to contribute so that we all ca
 
 Feel free to ask questions about anything in this document using issues.
 
+## Additional reading
+Technical details on contributing can be found in the [computing-pipeline](https://github.com/AgPipeline/computing-pipeline) repo's [CONTRIBUTING.md](https://github.com/AgPipeline/computing-pipeline/blob/master/.github/CONTRIBUTING.md) file.
+
 # History
 This organization is a fork of the [TERRA REF](https://github.com/terraref) project (and might be thought of as TERRA REF 2.0).
 The TERRA REF project was built up around the world's [largest mobile agricultural gantry sensing platform](https://terraref.org/).
