@@ -4,7 +4,7 @@ This repository contains information on how to contribute to this GitHub organiz
 This document should be considered a work in progress and will change as new standards and technologies emerge.
 Please be sure to read this documentation on how to contribute so that we all can have a great experience!
 
-Feel free to ask questions about anything in this document 
+Feel free to ask questions about anything in this document using issues.
 
 # History
 This organization is a fork of the [TERRA REF](https://github.com/terraref) project (and might be thought of as TERRA REF 2.0).
@@ -25,8 +25,6 @@ The organization of repositories for organizations/projects this size can be an 
 One important way of managing this is to use appropriate naming conventions so that repos are easy to find.
 Another aspect is to keep a repository's meaning clear; for example. don't combine administrative scripts with product code.
 
-
-
 # Branches
 There are several ways of handling branching in repositories.
 
@@ -34,6 +32,16 @@ For any repositories containing code, tests, scripts, and other executables we u
 We also support pull requests from other organizations as well as personal repos.
 
 For all other repositories, we strongly recommend using master/develop branching as above.
-Please use a methodology that makes sense for your project and document the rules.
+Please use a methodology that makes sense for your project and document the rules in the repo's README.
 
 # Coding Standards
+Coding standards are most efective when they don't cause a large burden for developers.
+If coding standards can be applied through the use of tools, that is the recommended approach to take.
+
+## Python
+All Python code must support Python 3.7 or later.
+
+In the root of the repo there's a `pylint.rc` file.
+As can be guessed by the name of this file, it's expected that all python scripts will pass a run of [pylint](https://www.pylint.org/) with a score of 10.0.
+Exceptions to this are allowed as long as they are documented to show that it's deliberate and justified.
+
