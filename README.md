@@ -45,3 +45,11 @@ In the root of the repo there's a `pylint.rc` file.
 As can be guessed by the name of this file, it's expected that all python scripts will pass a run of [pylint](https://www.pylint.org/) with a score of 10.0.
 Exceptions to this are allowed as long as they are documented to show that it's deliberate and justified.
 
+# Testing
+All code needs to have test cases, with the exception of the TERRA REF code which is being grandfathered in.
+
+# Continuous Integration
+All code in repositories must have Continuous Integration (CI) enabled.
+Other repositories can also have CI enabled if it makes sense for them.
+The CI steps need to perform code conformance tests (such as passing `pylint`), unit tests, build tests, and functional tests.
+It's desireable that these tests are performed on the final product(s) of the repo; against newly built docker images for exanple.
