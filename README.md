@@ -5,7 +5,7 @@ This repository contains information on how to contribute to this GitHub organiz
 This document should be considered a work in progress and will change as new standards and technologies emerge.
 Please be sure to read this documentation on how to contribute so that we all can have a great experience!
 
-Feel free to ask questions about anything in this document using issues.
+Feel free to ask questions about anything in this document using [issues](https://github.com/AgPipeline/computing-pipeline/issues).
 
 ## Additional reading
 Technical details on contributing can be found in the [computing-pipeline](https://github.com/AgPipeline/computing-pipeline) repo's [CONTRIBUTING.md](https://github.com/AgPipeline/computing-pipeline/blob/master/.github/CONTRIBUTING.md) file.
