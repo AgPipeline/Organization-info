@@ -18,7 +18,7 @@ This organization arose out of the need to adapt the processing pipeline to the 
 
 As part of the technology associated with the gantry ownership transfer, a rework on the existing code was required.
 Given the extent of the changes required and desired, this GitHub organization was created.
-Some of the primary factors requiring changes are reduced support personell, different infrastructure, and leveraging HPC.
+Some of the primary factors requiring changes are reduced support personnel, different infrastructure, and leveraging HPC.
 Some of the desired changes are simplifying transfer of technology (making it easy to run in alternate environments), standardization of workflow processes (encapsulated as 'extractors'), making contributions of scientific algorithms as easy as possible, and dynamic workflows.
 
 # Reaching Goals
@@ -61,7 +61,7 @@ A potential problem with this approach to merging is the loss meaningful of hist
 By appropriate commenting and other documentation, this problem can be avoided.
 
 # Coding Standards
-Coding standards are most efective when they don't cause a large burden for developers.
+Coding standards are most effective when they don't cause a large burden for developers.
 If coding standards can be applied through the use of tools, that is the recommended approach to take.
 
 ## Python
@@ -79,4 +79,4 @@ All code needs to have test cases, with the exception of the TERRA REF code whic
 All code in repositories must have Continuous Integration (CI) enabled.
 Other repositories can also have CI enabled if it makes sense for them.
 The CI steps need to perform code conformance tests (such as passing `pylint`), unit tests, build tests, and functional tests.
-It's desireable that these tests are performed on the final product(s) of the repo; against newly built docker images for exanple.
+It's desirable that these tests are performed on the final product(s) of the repo; against newly built docker images for example.
