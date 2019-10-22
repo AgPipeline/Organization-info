@@ -26,13 +26,25 @@ One important way of managing this is to use appropriate naming conventions so t
 Another aspect is to keep a repository's meaning clear; for example. don't combine administrative scripts with product code.
 
 # Branches
-There are several ways of handling branching in repositories.
+There are several ways of handling branching in repositories of which we've chosen one.
 
 For any repositories containing code, tests, scripts, and other executables we use a [master/develop methodology](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) with other branches for feature/issue development.
 We also support pull requests from other organizations as well as personal repos.
 
 For all other repositories, we strongly recommend using master/develop branching as above.
 Please use a methodology that makes sense for your project and document the rules in the repo's README.
+
+# Pull Requests
+When a branch is ready to be merged, a Pull Request is made.
+Pull Requests must be reviewed to be accepted for merging, and a successful test using CI (see below) has to be done.
+Please be sure to configure your repository for these requirements.
+
+# Merging
+To promote frequent commits, branches are to be squashed when merged (their history removed).
+This  is done to promote the commit of even very minor changes, without cluttering the history of the main branches (master and develop).
+
+A potential problem with this approach to merging is the loss meaningful of history.
+By appropriate commenting and other documentation, this problem can be avoided.
 
 # Coding Standards
 Coding standards are most efective when they don't cause a large burden for developers.
@@ -49,7 +61,7 @@ Copy the `pylint.rc` file to your repo to make it easy to use in for your work.
 # Testing
 All code needs to have test cases, with the exception of the TERRA REF code which is being grandfathered in.
 
-# Continuous Integration
+# Continuous Integration (CI)
 All code in repositories must have Continuous Integration (CI) enabled.
 Other repositories can also have CI enabled if it makes sense for them.
 The CI steps need to perform code conformance tests (such as passing `pylint`), unit tests, build tests, and functional tests.
