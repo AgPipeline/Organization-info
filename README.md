@@ -44,6 +44,7 @@ All Python code must support Python 3.7 or later.
 In the root of the repo there's a `pylint.rc` file.
 As can be guessed by the name of this file, it's expected that all python scripts will pass a run of [pylint](https://www.pylint.org/) with a score of 10.0.
 Exceptions to this are allowed as long as they are documented to show that it's deliberate and justified.
+Copy the `pylint.rc` file to your repo to make it easy to use in for your work.
 
 # Testing
 All code needs to have test cases, with the exception of the TERRA REF code which is being grandfathered in.
