@@ -1,3 +1,4 @@
+<!-- NOTES: 1) This document is intended to be a quick(ish) read. To this end, please don't document items that are better kept in a file, such as the pylint.rc file, just provide a link/location - especially if the file format allows self documentation! 2) Each sentence is to be on its own line, do not put two sentences on the same line. -->
 # Contributing
 This repository contains information on how to contribute to this GitHub organization in the form of this README.md, other files, and documents and links.
 
@@ -24,6 +25,16 @@ To reach the goals of providing a stable, flexible workflow that minimizes custo
 The organization of repositories for organizations/projects this size can be an issue.
 One important way of managing this is to use appropriate naming conventions so that repos are easy to find.
 Another aspect is to keep a repository's meaning clear; for example. don't combine administrative scripts with product code.
+
+How best to structure a repository is very dependent upon what is being developed.
+A good way to structure a repo is to place everything needed for a solution within that repository.
+For example, place a Dockerfile used to build an image in the repo and not in a separate repo.
+If there are multiple Dockerfiles for a single repo, you may consider putting them in a folder named "dockerfiles", but then again maybe not.
+
+Keeping repos as single purpose as possible is also encouraged.
+This does not prevent major complexity within a repo.
+
+In the end, use your best judgement, don't be afraid to reorganize, and ask if you have any questions!
 
 # Branches
 There are several ways of handling branching in repositories of which we've chosen one.
