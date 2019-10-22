@@ -1,3 +1,6 @@
+# Version of this pylint.rc file
+# Version 1.0
+
 [FORMAT]
 
 # Number of spaces of indent required inside a hanging or continued line.
