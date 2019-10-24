@@ -2,6 +2,8 @@
 # Contributing
 This repository contains information on how to contribute to this GitHub organization in the form of this README.md, other files, and documents and links.
 
+Be sure to read our [Code of Conduct](https://github.com/AgPipeline/Organization-info/blob/master/CODEOFCONDUCT.md).
+
 This document should be considered a work in progress and will change as new standards and technologies emerge.
 Please be sure to read this documentation on how to contribute so that we all can have a great experience!
 
@@ -38,6 +40,11 @@ Keeping repos as single purpose as possible is also encouraged.
 This does not prevent major complexity within a repo.
 
 In the end, use your best judgement, don't be afraid to reorganize, and ask if you have any questions!
+
+# Issues
+We are run by the issues that are entered into our system.
+To keep things simple, we use only one repo for our issues - the [conmputing-pipeline](https://github.com/AgPipeline/computing-pipeline/issues) repo.
+If you aren't sure what type of ticket to enter, choose the generic "Issue" template to add your ticket.
 
 # Branches
 There are several ways of handling branching in repositories of which we've chosen one.
