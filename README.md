@@ -89,7 +89,7 @@ All Python code must support Python 3.7 or later. We use the [PEP 8 Style Guide 
 In the root of this repo there's a `pylint.rc` file.
 As can be guessed by the name of this file, it's expected that all python scripts will pass a run of [pylint](https://www.pylint.org/) with a score of 10.0.
 Exceptions to this are allowed as long as they are documented to show that it's deliberate and justified.
-Copy the `pylint.rc` file to your repo to make it easy to use in for your work.
+For non-[AgPipeline](https://github.com/AgPipeline) repositories, please feel free to copy the `pylint.rc` file to your repo to make it easy to use in for your work.
 
 # Testing
 
