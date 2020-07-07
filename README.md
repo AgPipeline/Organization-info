@@ -4,16 +4,18 @@
 
 This repository contains information on how to contribute to this GitHub organization in the form of this README.md, other files, and documents and links.
 
-Be sure to read our [Code of Conduct](https://github.com/AgPipeline/Organization-info/blob/master/CODEOFCONDUCT.md).
+Be sure to read our [Code of Conduct](https://github.com/AgPipeline/.github/blob/master/.github/CODE_OF_CONDUCT.md).
 
 This document should be considered a work in progress and will change as new standards and technologies emerge.
 Please be sure to read this documentation on how to contribute so that we all can have a great experience!
 
 Feel free to ask questions about anything in this document using [issues](https://github.com/AgPipeline/computing-pipeline/issues).
 
+For a technical overview, our [GitHub Pages](https://agpipeline.github.io/) are a good place to start; especially the page on [Transformers](https://agpipeline.github.io/transformers/transformers). 
+
 ## Additional reading
 
-Technical details on contributing can be found in the [computing-pipeline](https://github.com/AgPipeline/computing-pipeline) repo's [CONTRIBUTING.md](https://github.com/AgPipeline/computing-pipeline/blob/master/.github/CONTRIBUTING.md) file.
+Technical details on contributing can be found in the [CONTRIBUTING.md](https://github.com/AgPipeline/.github/blob/master/.github/CONTRIBUTING.md) file.
 
 # History
 
@@ -25,7 +27,7 @@ This organization arose out of the need to adapt the processing pipeline to the 
 As part of the technology associated with the gantry ownership transfer, a rework on the existing code was required.
 Given the extent of the changes required and desired, this GitHub organization was created.
 Some of the primary factors requiring changes are reduced support personnel, different infrastructure, and leveraging HPC.
-Some of the desired changes are simplifying transfer of technology (making it easy to run in alternate environments), standardization of workflow processes (encapsulated as 'extractors'), making contributions of scientific algorithms as easy as possible, and dynamic workflows.
+Some of the desired changes are simplifying transfer of technology (making it easy to run in alternate environments), standardization of workflow processes (encapsulated as 'Transformers'), making contributions of scientific algorithms as easy as possible, and dynamic workflows.
 
 # Reaching Goals
 
@@ -40,28 +42,28 @@ Another aspect is to keep a repository's meaning clear; for example. don't combi
 How best to structure a repository is very dependent upon what is being developed.
 A good way to structure a repo is to place everything needed for a solution within that repository.
 For example, place a Dockerfile used to build an image in the repo and not in a separate repo.
-If there are multiple Dockerfiles for a single repo, you may consider putting them in a folder named "dockerfiles", but then again maybe not.
+If there are multiple Dockerfiles for a single repo, you may consider putting them in a folder named "dockerfiles", but this is not required.
 
-Keeping repos as single purpose as possible is also encouraged.
-This does not prevent major complexity within a repo.
+Keeping repositories as single purpose as possible is also encouraged.
+This does not prevent major complexity within a repository.
 
 In the end, use your best judgement, don't be afraid to reorganize, and ask if you have any questions!
 
 # Issues
 
-We are run by the issues that are entered into our system.
-To keep things simple, we use only one repo for our issues - the [conmputing-pipeline](https://github.com/AgPipeline/computing-pipeline/issues) repo.
-If you aren't sure what type of ticket to enter, choose the generic "Issue" template to add your ticket.
+Our work is directed by the issues submitted.
+To keep things simple, we use only one repository for our issues - the [issues-and-projects](https://github.com/AgPipeline/issues-and-projects) repository.
+If you aren't sure what type of ticket to enter, choose the generic "Issue Report" template to add your ticket.
 
 # Branches
 
 There are several ways of handling branching in repositories of which we've chosen one.
 
 For any repositories containing code, tests, scripts, and other executables we use a [master/develop methodology](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) with other branches for feature/issue development.
-We also support pull requests from other organizations as well as personal repos.
+We also support pull requests from other organizations as well as personal repositories.
 
 For all other repositories, we strongly recommend using master/develop branching as above.
-Please use a methodology that makes sense for your project and document the rules in the repo's README.
+Please use a methodology that makes sense for your project and document the rules in the repository's README.
 
 # Pull Requests
 
@@ -86,10 +88,10 @@ If coding standards can be applied through the use of tools, that is the recomme
 
 All Python code must support Python 3.7 or later. We use the [PEP 8 Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/), and this is checked by the pylint utility.
 
-In the root of this repo there's a `pylint.rc` file.
+In the root of this repository there's a `pylint.rc` file.
 As can be guessed by the name of this file, it's expected that all python scripts will pass a run of [pylint](https://www.pylint.org/) with a score of 10.0.
 Exceptions to this are allowed as long as they are documented to show that it's deliberate and justified.
-For non-[AgPipeline](https://github.com/AgPipeline) repositories, please feel free to copy the `pylint.rc` file to your repo to make it easy to use in for your work.
+For non-[AgPipeline](https://github.com/AgPipeline) repositories, please feel free to copy the `pylint.rc` file to your repository to make it easy to use in for your work.
 
 # Testing
 
@@ -100,4 +102,4 @@ All code needs to have test cases, with the exception of the TERRA REF code whic
 All code in repositories must have Continuous Integration (CI) enabled.
 Other repositories can also have CI enabled if it makes sense for them.
 The CI steps need to perform code conformance tests (such as passing `pylint`), unit tests, build tests, and functional tests.
-It's desirable that these tests are performed on the final product(s) of the repo; against newly built docker images for example.
+It's desirable that these tests are performed on the final product(s) of the repository; against newly built docker images for example.
