@@ -51,7 +51,7 @@ In the end, use your best judgement, don't be afraid to reorganize, and ask if y
 
 # Issues
 
-We are run by the issues that are entered into our system.
+Our work is directed by the issues submitted.
 To keep things simple, we use only one repository for our issues - the [issues-and-projects](https://github.com/AgPipeline/issues-and-projects) repository.
 If you aren't sure what type of ticket to enter, choose the generic "Issue Report" template to add your ticket.
 
