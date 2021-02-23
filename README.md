@@ -4,7 +4,7 @@
 
 This repository contains information on how to contribute to this GitHub organization in the form of this README.md, other files, and documents and links.
 
-Be sure to read our [Code of Conduct](https://github.com/AgPipeline/.github/blob/master/.github/CODE_OF_CONDUCT.md).
+Be sure to read our [Code of Conduct](https://github.com/AgPipeline/.github/blob/main/.github/CODE_OF_CONDUCT.md).
 
 This document should be considered a work in progress and will change as new standards and technologies emerge.
 Please be sure to read this documentation on how to contribute so that we all can have a great experience!
@@ -15,7 +15,7 @@ For a technical overview, our [GitHub Pages](https://agpipeline.github.io/) are 
 
 ## Additional reading
 
-Technical details on contributing can be found in the [CONTRIBUTING.md](https://github.com/AgPipeline/.github/blob/master/.github/CONTRIBUTING.md) file.
+Technical details on contributing can be found in the [CONTRIBUTING.md](https://github.com/AgPipeline/.github/blob/main/.github/CONTRIBUTING.md) file.
 
 # History
 
@@ -59,10 +59,10 @@ If you aren't sure what type of ticket to enter, choose the generic "Issue Repor
 
 There are several ways of handling branching in repositories of which we've chosen one.
 
-For any repositories containing code, tests, scripts, and other executables we use a [master/develop methodology](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) with other branches for feature/issue development.
+For any repositories containing code, tests, scripts, and other executables we use a [main/develop methodology](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) with other branches for feature/issue development.
 We also support pull requests from other organizations as well as personal repositories.
 
-For all other repositories, we strongly recommend using master/develop branching as above.
+For all other repositories, we strongly recommend using main/develop branching as above.
 Please use a methodology that makes sense for your project and document the rules in the repository's README.
 
 # Pull Requests
@@ -74,7 +74,7 @@ Please be sure to configure your repository for these requirements.
 # Merging
 
 To promote frequent commits, branches are to be squashed when merged (their history removed).
-This  is done to promote the commit of even very minor changes, without cluttering the history of the main branches (master and develop).
+This  is done to promote the commit of even very minor changes, without cluttering the history of the main branches (main and develop).
 
 A potential problem with this approach to merging is the loss meaningful of history.
 By appropriate commenting and other documentation, this problem can be avoided.
